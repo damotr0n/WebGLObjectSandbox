@@ -1,6 +1,6 @@
-# WebGL object sandbox
-
 This repository contains a simple coursework project that was written for a visual computing unit at university.
+
+Project can be previewed [here](https://damianhaziak.github.io/WebGLObjectSandbox/dh651%20-%20WebGL%20Coursework.html "WebGL Object Sandbox").
 
 It explores the Web Graphics Library (WebGL) API through the `three.js` library. A cube is rendered and textured using the latter. Camera movements and object rotations are implemented, and you can manipulate them using the controls below:
 
@@ -30,10 +30,10 @@ Other controls:
 * `f` : face rendering mode, renders faces of the current object (default)
 * `s` : "super" mode toggle, rotations speed up and the ambient light is replaced with a point light of a random colour (also included some music, however that is removed as it was annoying)
 
-*WebGL Report.pdf* goes into more detail regarding the implementation of this, so please refer to that document for more information.
+[*WebGL Report.pdf*](../master/WebGL%20Report.pdf) goes into more detail regarding the implementation of this, so please refer to that document for more information.
 
 ## Dependencies
 
-* `three.js` (included)
+* [`three.js`](https://threejs.org/) (included)
 * `OBJLoader.js` (included)
 * A server, any will do, I used Python's `http.server`
